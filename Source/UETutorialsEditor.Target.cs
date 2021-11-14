@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class UETutorialsEditorTarget : TargetRules
 {
-	public UETutorialsEditorTarget( TargetInfo Target) : base(Target)
+	public UETutorialsEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "UETutorials" } );
+		ExtraModuleNames.Add("UETutorials");
 	}
 }

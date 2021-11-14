@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class UETutorialsTarget : TargetRules
 {
-	public UETutorialsTarget( TargetInfo Target) : base(Target)
+	public UETutorialsTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "UETutorials" } );
+		ExtraModuleNames.Add("UETutorials");
 	}
 }
